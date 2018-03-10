@@ -7,7 +7,7 @@ This will use a Keras based neural network to detect Dalmatians in events detect
 
 This allows one to run events on a ZoneMinder server by dadda to check if they contain a Dalmatian.
 
-This could be used for any other pet or other object monitoring scenario, but was specifically written for detecting Dalmatians. None of the code specifically expects there to actually _be_ a Dalmatian, however all the defaults do.
+This could be used for any other pet or other object monitoring scenario, but was specifically written for detecting Dalmatians. None of the code specifically expects the tracked object to actually _be_ a Dalmatian, however all the defaults are written with that expectation.
 
 Processes
 ---------
@@ -20,7 +20,7 @@ Processes
 
 It's expected that this will be run as an automated service every so often (or on-demand after every event is completed if that's possible)
 
-This can be used to categories events which are "not interesting" and are retained for less time.
+This can be used to categorise events which are "not interesting" and are retained for less time.
 
 **Learning will be done by:**
 
