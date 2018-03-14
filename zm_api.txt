@@ -1,0 +1,3 @@
+API Doco: http://zoneminder.readthedocs.io/en/stable/api.html
+
+Retrieve single frame: http://multimedia.local/zm/index.php?view=image&fid=14&eid=1000 (eid is the event ID, fid is the Id of the frame _within_ the event)
